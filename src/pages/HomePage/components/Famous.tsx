@@ -1,7 +1,7 @@
-import famous01 from '../../../assets/images/famous-1.webp';
-import famous02 from '../../../assets/images/famous-2.webp';
-import famous03 from '../../../assets/images/famous-3.webp';
-import famous04 from '../../../assets/images/famous-4.webp';
+import famous01 from '~/assets/images/famous-1.webp';
+import famous02 from '~/assets/images/famous-2.webp';
+import famous03 from '~/assets/images/famous-3.webp';
+import famous04 from '~/assets/images/famous-4.webp';
 
 import '../styles.scss';
 

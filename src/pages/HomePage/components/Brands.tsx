@@ -1,5 +1,5 @@
 import Marquee from 'react-fast-marquee';
-import brand01 from '../../../assets/images/brand-01.png';
+import brand01 from '~/assets/images/brand-01.png';
 
 export const Brands = () => {
   return (

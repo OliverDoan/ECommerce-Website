@@ -1,10 +1,10 @@
 import { NavLink, Link } from 'react-router-dom';
 import { BsSearch } from 'react-icons/bs';
-import compare from '../../assets/images/compare.svg';
-import wishlist from '../../assets/images/wishlist.svg';
-import user from '../../assets/images/user.svg';
-import cart from '../../assets/images/cart.svg';
-import menu from '../../assets/images/menu.svg';
+import compare from '~/assets/images/compare.svg';
+import wishlist from '~/assets/images/wishlist.svg';
+import user from '~/assets/images/user.svg';
+import cart from '~/assets/images/cart.svg';
+import menu from '~/assets/images/menu.svg';
 import './styles.scss';
 export const Header = () => {
   return (

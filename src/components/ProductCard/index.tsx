@@ -1,9 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
-import addcart from '../../assets/images/add-cart.svg';
-import prodcompare from '../../assets/images/prodcompare.svg';
-import view from '../../assets/images/view.svg';
-import watch from '../../assets/images/watch.jpg';
-import wish from '../../assets/images/wish.svg';
+import addcart from '~/assets/images/add-cart.svg';
+import prodcompare from '~/assets/images/prodcompare.svg';
+import view from '~/assets/images/view.svg';
+import watch from '~/assets/images/watch.jpg';
+import wish from '~/assets/images/wish.svg';
 import ReactStars from 'react-rating-stars-component';
 import './styles.scss';
 const ProductCard = (props: any) => {

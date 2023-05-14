@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import catbanner1 from '../../../assets/images/catbanner-01.jpg';
-import catbanner2 from '../../../assets/images/catbanner-02.jpg';
-import catbanner3 from '../../../assets/images/catbanner-03.jpg';
-import catbanner4 from '../../../assets/images/catbanner-04.jpg';
-import mainBanner from '../../../assets/images/main-banner-1.jpg';
+import catbanner1 from '~/assets/images/catbanner-01.jpg';
+import catbanner2 from '~/assets/images/catbanner-02.jpg';
+import catbanner3 from '~/assets/images/catbanner-03.jpg';
+import catbanner4 from '~/assets/images/catbanner-04.jpg';
+import mainBanner from '~/assets/images/main-banner-1.jpg';
 
 export const Banners = () => {
   return (

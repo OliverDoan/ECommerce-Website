@@ -1,6 +1,7 @@
+import { BsGithub, BsInstagram, BsLinkedin, BsYoutube } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import { BsLinkedin, BsGithub, BsYoutube, BsInstagram } from 'react-icons/bs';
-import newsletter from '../../assets/images/newsletter.png';
+import newsletter from '~/assets/images/newsletter.png';
+
 import './styles.scss';
 export const Footer = () => {
   return (

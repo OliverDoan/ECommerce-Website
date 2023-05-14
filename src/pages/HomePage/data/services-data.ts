@@ -1,8 +1,8 @@
-import servicesImg1 from '../../../assets/images/service.png';
-import servicesImg2 from '../../../assets/images/service-02.png';
-import servicesImg3 from '../../../assets/images/service-03.png';
-import servicesImg4 from '../../../assets/images/service-04.png';
-import servicesImg5 from '../../../assets/images/service-05.png';
+import servicesImg1 from '~/assets/images/service.png';
+import servicesImg2 from '~/assets/images/service-02.png';
+import servicesImg3 from '~/assets/images/service-03.png';
+import servicesImg4 from '~/assets/images/service-04.png';
+import servicesImg5 from '~/assets/images/service-05.png';
 export const services = [
   {
     image: servicesImg1,
