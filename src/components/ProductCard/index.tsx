@@ -4,7 +4,7 @@ import prodcompare from '~/assets/images/prodcompare.svg';
 import view from '~/assets/images/view.svg';
 import watch from '~/assets/images/watch.jpg';
 import wish from '~/assets/images/wish.svg';
-import ReactStars from 'react-rating-stars-component';
+import StarRatingComponent from 'react-star-rating-component';
 import './styles.scss';
 const ProductCard = (props: any) => {
   const { grid } = props;
@@ -38,7 +38,7 @@ const ProductCard = (props: any) => {
             <h5 className='product-title'>
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <ReactStars count={5} size={24} value={4} edit={false} activeColor='#ffd700' />
+            <StarRatingComponent name='rate1' starCount={5} value={1} />
             <p className={`description ${grid === 12 ? 'd-block' : 'd-none'}`}>
               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
@@ -86,7 +86,7 @@ const ProductCard = (props: any) => {
             <h5 className='product-title'>
               Kids headphones bulk 10 pack multi colored for students
             </h5>
-            <ReactStars count={5} size={24} value={4} edit={false} activeColor='#ffd700' />
+            <StarRatingComponent name='rate1' starCount={5} value={1} />
             <p className={`description ${grid === 12 ? 'd-block' : 'd-none'}`}>
               At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
               voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint

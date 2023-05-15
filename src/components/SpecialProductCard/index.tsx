@@ -1,4 +1,4 @@
-import ReactStars from 'react-rating-stars-component';
+import StarRatingComponent from 'react-star-rating-component';
 import { Link } from 'react-router-dom';
 import watch from '~/assets/images/watch.jpg';
 import './styles.scss';
@@ -15,7 +15,7 @@ const SpecialProductCard = () => {
             <div className='special-product-content'>
               <h5 className='brand'>Havels</h5>
               <h6 className='title'>Samsung Galaxy Note10+ Mobile Phone; Sim...</h6>
-              <ReactStars count={5} size={24} value={4} edit={false} activeColor='#ffd700' />
+              <StarRatingComponent name='rate1' starCount={5} value={1} />
               <p className='price'>
                 <span className='red-p'>$100</span> &nbsp; $200
               </p>
