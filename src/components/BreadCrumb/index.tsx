@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export const index = (props: any) => {
+export const BreadCrumb = (props: any) => {
   const { title } = props;
   return (
     <div className='breadcrumb mb-0 py-4'>
