@@ -6,6 +6,7 @@ import { OurStorePage } from './pages/OurStore';
 import { BlogsPage } from './pages/Blogs';
 import { ContactPage } from './pages/Contact';
 import CompareProduct from './pages/CompareProduct';
+import Wishlist from './pages/Wishlist';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: '/compare-product',
         element: <CompareProduct />,
+      },
+      {
+        path: '/wishlist',
+        element: <Wishlist />,
       },
     ],
   },
