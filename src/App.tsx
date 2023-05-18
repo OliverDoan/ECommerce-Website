@@ -7,6 +7,10 @@ import { BlogsPage } from './pages/Blogs';
 import { ContactPage } from './pages/Contact';
 import CompareProduct from './pages/CompareProduct';
 import Wishlist from './pages/Wishlist';
+import Login from './pages/Login';
+import Forgotpassword from './pages/Forgotpassword';
+import Signup from './pages/Signup';
+import Resetpassword from './pages/Resetpassword';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +41,22 @@ const router = createBrowserRouter([
       {
         path: '/wishlist',
         element: <Wishlist />,
+      },
+      {
+        path: '/login',
+        element: <Login />,
+      },
+      {
+        path: '/forgot-password',
+        element: <Forgotpassword />,
+      },
+      {
+        path: '/signup',
+        element: <Signup />,
+      },
+      {
+        path: '/reset-password',
+        element: <Resetpassword />,
       },
     ],
   },
