@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { HomePage } from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import Forgotpassword from './pages/Forgotpassword';
 import Signup from './pages/Signup';
 import Resetpassword from './pages/Resetpassword';
+import BlogDetail from './pages/BlogDetail';
 
 const router = createBrowserRouter([
   {
@@ -28,7 +29,17 @@ const router = createBrowserRouter([
       },
       {
         path: '/blogs',
-        element: <BlogsPage />,
+        element: <Outlet />,
+        children: [
+          {
+            index: true,
+            element: <BlogsPage />,
+          },
+          {
+            path: '/blogs/:id',
+            element: <BlogDetail />,
+          },
+        ],
       },
       {
         path: '/contact',
