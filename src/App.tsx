@@ -12,6 +12,7 @@ import Forgotpassword from './pages/Forgotpassword';
 import Signup from './pages/Signup';
 import Resetpassword from './pages/Resetpassword';
 import BlogDetail from './pages/BlogDetail';
+import ProductDetail from './pages/ProductDetail';
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,17 @@ const router = createBrowserRouter([
       },
       {
         path: '/product',
-        element: <OurStorePage />,
+        element: <Outlet />,
+        children: [
+          {
+            index: true,
+            element: <OurStorePage />,
+          },
+          {
+            path: '/product/:id',
+            element: <ProductDetail />,
+          },
+        ],
       },
       {
         path: '/blogs',
