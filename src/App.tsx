@@ -14,6 +14,7 @@ import Resetpassword from './pages/Resetpassword';
 import BlogDetail from './pages/BlogDetail';
 import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
 
 const router = createBrowserRouter([
   {
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
       {
         path: '/cart',
         element: <Cart />,
+      },
+      {
+        path: '/checkout',
+        element: <Checkout />,
       },
     ],
   },
