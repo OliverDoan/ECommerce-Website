@@ -13,6 +13,7 @@ import Signup from './pages/Signup';
 import Resetpassword from './pages/Resetpassword';
 import BlogDetail from './pages/BlogDetail';
 import ProductDetail from './pages/ProductDetail';
+import Cart from './pages/Cart';
 
 const router = createBrowserRouter([
   {
@@ -79,6 +80,10 @@ const router = createBrowserRouter([
       {
         path: '/reset-password',
         element: <Resetpassword />,
+      },
+      {
+        path: '/cart',
+        element: <Cart />,
       },
     ],
   },
